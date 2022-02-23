@@ -14,13 +14,15 @@ The FastCSR workflow can be summarized into four steps.
 
 ## Table of Contents
 - [Configuration Environment](#Configuration-Environment)
-  - [build the environment natively](#build-the-environment-natively)
+  - [build the native environment](#build-the-environment-natively)
   - [build inference environment using Docker](#build-inference-environment-using-Docker)
   - [pre-trained model](#pre-trained-model)
+  - [example data]
 - [Usage](#usage)
-- [Extending/Changing nnU-Net](#extending-or-changing-nnu-net)
-- [Information on run time and potential performance bottlenecks.](#information-on-run-time-and-potential-performance-bottlenecks)
-- [Common questions and issues](#common-questions-and-issues)
+  - [Run example]
+- [References](#references)
+- [License](#license)
+
 ## Configuration Environment
 There are two ways to run FastCSR:
 - Build the native environment and run a full version, including preprocessing, surface reconstruction and optimization.
@@ -109,7 +111,7 @@ sub-001
 ├── surf
 └── tmp
 ```
-#### run example
+### run example
 - native environment
   ```
   python3 pipeline.py --sd ./data --sid sub-001  --t1 ./data/sub-001.nii.gz

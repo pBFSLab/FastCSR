@@ -13,17 +13,17 @@ The FastCSR workflow can be summarized into four steps.
 (e) An explicit surface mesh is reconstructed from the level set representation through a fast topology-preserving isosurface extraction algorithm.
 
 ## Table of Contents
-- [Configuration Environment](#Configuration-Environment)
-  - [build the native environment](#build-the-environment-natively)
-  - [build inference environment using Docker](#build-inference-environment-using-Docker)
+- [Environment Configuration](#environment-configuration)
+  - [build the native environment](#build-the-native-environment)
+  - [build inference environment using Docker](#build-inference-environment-using-docker)
   - [pre-trained model](#pre-trained-model)
-  - [example data]
+  - [example data](#example-data)
 - [Usage](#usage)
-  - [Run example]
+  - [Run example](#run-example)
 - [References](#references)
 - [License](#license)
 
-## Configuration Environment
+## Environment Configuration 
 There are two ways to run FastCSR:
 - Build the native environment and run a full version, including preprocessing, surface reconstruction and optimization.
 - Run a docker-based version, only including the surface reconstruction, to easily test the method.

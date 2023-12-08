@@ -1,5 +1,5 @@
 ## Manuscript
-Our manuscript has been published in [Brain Informatics]((https://link.springer.com/article/10.1186/s40708-022-00155-7))! 
+Our manuscript has been published in [Brain Informatics](https://link.springer.com/article/10.1186/s40708-022-00155-7)! 
 
 ## Introduction
 Reconstructing cortical surfaces from structural magnetic resonance imaging (MRI) is a prerequisite for surface-based functional and anatomical image analyses. Conventional algorithms for cortical surface construction are computationally inefficient and typically take several hours for each subject, causing a bottleneck in applications when fast turnaround time is needed. To address this challenge, here we proposed a fast cortical surface reconstruction (FastCSR) pipeline based on deep machine learning. 

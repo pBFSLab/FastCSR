@@ -125,7 +125,7 @@ sub-001
   ```
   PS: Since the docker environment does not contain FreeSurfer, preprocessing and surface optimization functions cannot be performed in the docker environment.
 ## References
-To be updated
+Please cite: Ren, J., Hu, Q., Wang, W. et al. Fast cortical surface reconstruction from MRI using deep learning. Brain Inf. 9, 6 (2022). https://doi.org/10.1186/s40708-022-00155-7
 ## License
 Academic research can be used freely, but commercial use requires authorization.
 

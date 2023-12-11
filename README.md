@@ -121,7 +121,7 @@ sub-001
   ```
 - docker environment
   ```
-  sudo docker run -it --gpus 'device=0' -v  $TestDataPath:/root/data --rm fastcsr2:gpu --sid sub-001 --sd /root/data --optimizing_surface off
+  sudo docker run -it --gpus 'device=0' -v  $TestDataPath:/root/data --rm ninganme/fastcsr:last --sid sub-001 --sd /root/data --optimizing_surface off
   ```
   PS: Since the docker environment does not contain FreeSurfer, preprocessing and surface optimization functions cannot be performed in the docker environment.
 ## References
